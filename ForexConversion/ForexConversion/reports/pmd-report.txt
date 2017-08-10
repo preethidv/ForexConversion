@@ -1,0 +1,820 @@
+src/forex/conversion/appln/ConversionFromPreloadedData.java:10:	Each class should declare at least one constructor
+src/forex/conversion/appln/ConversionFromPreloadedData.java:10:	headerCommentRequirement Required
+src/forex/conversion/appln/ConversionFromPreloadedData.java:11:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/ConversionFromPreloadedData.java:11:	Private field 'infoLoader' could be made final; it is only initialized in the declaration or constructor.
+src/forex/conversion/appln/ConversionFromPreloadedData.java:11:	fieldCommentRequirement Required
+src/forex/conversion/appln/ConversionFromPreloadedData.java:19:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:19:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:20:	Found 'DD'-anomaly for variable 'convertedValue' (lines '20'-'23').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:20:	Found 'DD'-anomaly for variable 'convertedValue' (lines '20'-'28').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:22:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/ConversionFromPreloadedData.java:25:	Local variable 'valueFromMap' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:26:	Avoid excessively long variable names like updatedExchangeRate
+src/forex/conversion/appln/ConversionFromPreloadedData.java:26:	Local variable 'updatedExchangeRate' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:27:	Local variable 'inputValue' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:41:	Avoid excessively long variable names like updatedExchangeRate
+src/forex/conversion/appln/ConversionFromPreloadedData.java:41:	Parameter 'updatedExchangeRate' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:41:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:42:	Found 'DD'-anomaly for variable 'convertedValue' (lines '42'-'44').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:50:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:50:	Comment is too large: Too many lines
+src/forex/conversion/appln/ConversionFromPreloadedData.java:51:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:54:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:55:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:60:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:61:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:62:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:63:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:64:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:65:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:83:	Avoid reassigning parameters such as 'valueFromMap'
+src/forex/conversion/appln/ConversionFromPreloadedData.java:83:	Avoid reassigning parameters such as 'valueFromMap'
+src/forex/conversion/appln/ConversionFromPreloadedData.java:83:	Avoid reassigning parameters such as 'valueFromMap'
+src/forex/conversion/appln/ConversionFromPreloadedData.java:83:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:83:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:84:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:85:	Found 'DD'-anomaly for variable 'exchangeValue' (lines '85'-'102').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:85:	Found 'DD'-anomaly for variable 'exchangeValue' (lines '85'-'107').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:85:	Found 'DD'-anomaly for variable 'exchangeValue' (lines '85'-'99').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:87:	Avoid excessively long variable names like supportedCurrencyShortFormList
+src/forex/conversion/appln/ConversionFromPreloadedData.java:87:	Local variable 'supportedCurrencyShortFormList' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:88:	Avoid excessively long variable names like isSupportedCurrency
+src/forex/conversion/appln/ConversionFromPreloadedData.java:88:	Local variable 'isSupportedCurrency' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/ConversionFromPreloadedData.java:88:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/ConversionFromPreloadedData.java:88:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/ConversionFromPreloadedData.java:91:	Avoid excessively long variable names like intermediateCurrency
+src/forex/conversion/appln/ConversionFromPreloadedData.java:91:	Local variable 'intermediateCurrency' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:93:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:94:	Avoid excessively long variable names like intermediateExchangeRate
+src/forex/conversion/appln/ConversionFromPreloadedData.java:94:	Local variable 'intermediateExchangeRate' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:98:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:99:	Found 'DD'-anomaly for variable 'exchangeValue' (lines '99'-'100').
+src/forex/conversion/appln/ConversionFromPreloadedData.java:105:	Comment is too large: Line too long
+src/forex/conversion/appln/ConversionFromPreloadedData.java:106:	Local variable 'invertedValue' could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:107:	Potential violation of Law of Demeter (static property access)
+src/forex/conversion/appln/ConversionFromPreloadedData.java:122:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:122:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionFromPreloadedData.java:123:	Found 'DD'-anomaly for variable 'exchangeRate' (lines '123'-'125').
+src/forex/conversion/appln/ConversionStrategy.java:7:	headerCommentRequirement Required
+src/forex/conversion/appln/ConversionStrategy.java:8:	Avoid variables with short names like c
+src/forex/conversion/appln/ConversionStrategy.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/ConversionStrategy.java:8:	fieldCommentRequirement Required
+src/forex/conversion/appln/ConversionStrategy.java:10:	Avoid variables with short names like c
+src/forex/conversion/appln/ConversionStrategy.java:10:	Parameter 'c' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionStrategy.java:10:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/ConversionStrategy.java:14:	Parameter 'conv' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionStrategy.java:14:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/ConversionStrategy.java:18:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/ConversionStrategy.java:22:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionStrategy.java:22:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/ConversionStrategy.java:22:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/Converter.java:7:	headerCommentRequirement Required
+src/forex/conversion/appln/Converter.java:8:	Avoid modifiers which are implied by the context
+src/forex/conversion/appln/Converter.java:8:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:1:	Possible God class (WMC=59, ATFD=17, TCC=0.22727272727272727)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:16:	The class 'CurrencyRatesInfoLoader' has a Cyclomatic Complexity of 4 (Highest = 12).
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:16:	headerCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:19:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:20:	Avoid excessively long variable names like supportedCurrenciesSet
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:20:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:20:	Private field 'supportedCurrenciesSet' could be made final; it is only initialized in the declaration or constructor.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:20:	fieldCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:21:	Avoid excessively long variable names like conversionRatesMap
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:21:	Private field 'conversionRatesMap' could be made final; it is only initialized in the declaration or constructor.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:21:	fieldCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:22:	Avoid excessively long variable names like conversionMatrixMap
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:22:	Private field 'conversionMatrixMap' could be made final; it is only initialized in the declaration or constructor.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:22:	fieldCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:25:	headerCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:26:	Avoid instantiation through private constructors from outside of the constructors class.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:26:	fieldCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:32:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:37:	The return type of the clone() method must be the class name when implements Cloneable
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:37:	clone() method must be public if the class implements Cloneable
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:37:	protectedMethodCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:42:	protectedMethodCommentRequirement Required
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:47:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:53:	Found 'UR'-anomaly for variable 'str' (lines '53'-'71').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:53:	Parameter 'currencyList' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:53:	The method 'populateSupportedCurrencies' has a Cyclomatic Complexity of 12.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:55:	Comment is too large: Too many lines
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:68:	Found 'DU'-anomaly for variable 'strHelper' (lines '68'-'95').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:68:	Local variable 'strHelper' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:69:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:70:	Local variable 'str' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:72:	Local variable 'strParser' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:73:	Local variable 'shortForm' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:74:	Found 'DD'-anomaly for variable 'decimalNum' (lines '74'-'74').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:74:	Found 'DD'-anomaly for variable 'decimalNum' (lines '74'-'81').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:74:	Found 'DU'-anomaly for variable 'decimalNum' (lines '74'-'95').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:75:	Local variable 'decimalString' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:76:	Deeply nested if..then statements are hard to read
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:76:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:77:	Local variable 'dStr' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:77:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:78:	Local variable 'decStr' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:79:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:81:	Found 'DD'-anomaly for variable 'decimalNum' (lines '81'-'74').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:81:	Found 'DU'-anomaly for variable 'decimalNum' (lines '81'-'95').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:83:	System.out.println is used
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:84:	Avoid printStackTrace(); use a logger call instead.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:88:	Deeply nested if..then statements are hard to read
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:89:	Avoid instantiating new objects inside loops
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:89:	Avoid variables with short names like c
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:89:	Local variable 'c' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:89:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:89:	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:102:	Parameter 'shortForm' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:104:	Local variable 'strHelper' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:106:	Avoid variables with short names like it
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:106:	Local variable 'it' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:108:	Avoid variables with short names like c
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:108:	Local variable 'c' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:109:	Deeply nested if..then statements are hard to read
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:109:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:110:	A method should have only one exit point, and that should be the last statement in the method
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:128:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:132:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:133:	Avoid excessively long variable names like shortFormForSupportedCurrencies
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:133:	Local variable 'shortFormForSupportedCurrencies' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:134:	Avoid excessively long variable names like isSupportedCurrency
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:134:	Found 'DD'-anomaly for variable 'isSupportedCurrency' (lines '134'-'136').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:135:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:136:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:136:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:146:	Parameter 'currency' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:147:	Avoid excessively long variable names like supportedCurrenciesSet
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:147:	Local variable 'supportedCurrenciesSet' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:148:	Avoid excessively long variable names like isSupportedCurrency
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:148:	Found 'DD'-anomaly for variable 'isSupportedCurrency' (lines '148'-'150').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:149:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:150:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:161:	Local variable 'shortFormList' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:163:	Avoid variables with short names like it
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:163:	Local variable 'it' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:165:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:165:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:178:	Found 'UR'-anomaly for variable 'str' (lines '178'-'195').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:178:	Parameter 'exchangeRatesList' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:178:	The method 'populateCurrencyExchangeRates' has a Cyclomatic Complexity of 10.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:180:	Comment is too large: Too many lines
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:193:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:194:	Local variable 'str' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:195:	Local variable 'rateStr' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:197:	Found 'DD'-anomaly for variable 'rate' (lines '197'-'199').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:199:	Avoid instantiating new objects inside loops
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:199:	Found 'DD'-anomaly for variable 'rate' (lines '199'-'197').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:199:	Found 'DU'-anomaly for variable 'rate' (lines '199'-'212').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:201:	System.out.println is used
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:202:	Avoid printStackTrace(); use a logger call instead.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:204:	Local variable 'currStr' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:205:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:205:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:206:	Deeply nested if..then statements are hard to read
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:215:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:220:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:221:	Found 'DD'-anomaly for variable 'exchangeRate' (lines '221'-'225').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:223:	Local variable 'value' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:237:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:237:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:238:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:243:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:245:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:250:	Found 'UR'-anomaly for variable 'str' (lines '250'-'259').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:250:	Parameter 'matrixValues' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:250:	The method 'populateCurrencyConversionMatrix' has a Cyclomatic Complexity of 11.
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:257:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:258:	Local variable 'str' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:259:	Local variable 'convValues' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:261:	Found 'DD'-anomaly for variable 'value' (lines '261'-'261').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:261:	Found 'DU'-anomaly for variable 'value' (lines '261'-'272').
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:261:	Local variable 'value' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:262:	Local variable 'currStr' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:263:	Deeply nested if..then statements are hard to read
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:263:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:264:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:264:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:275:	Comment is too large: Line too long
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:279:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:281:	A method should have only one exit point, and that should be the last statement in the method
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:293:	Parameter 'inputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:293:	Parameter 'outputCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/CurrencyRatesInfoLoader.java:294:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:17:	Comment is too large: Too many lines
+src/forex/conversion/appln/RunCurrencyConversion.java:31:	Comment is too large: Line too long
+src/forex/conversion/appln/RunCurrencyConversion.java:41:	headerCommentRequirement Required
+src/forex/conversion/appln/RunCurrencyConversion.java:43:	Parameter 'args' is not assigned and could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:43:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/RunCurrencyConversion.java:44:	Avoid excessively long variable names like runCurrencyConvert
+src/forex/conversion/appln/RunCurrencyConversion.java:44:	Local variable 'runCurrencyConvert' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:46:	Local variable 'validator' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:48:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:51:	Local variable 'converter' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:52:	Local variable 'value' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:52:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:55:	System.out.println is used
+src/forex/conversion/appln/RunCurrencyConversion.java:77:	Found 'DD'-anomaly for variable 'convBean' (lines '77'-'85').
+src/forex/conversion/appln/RunCurrencyConversion.java:78:	System.out.println is used
+src/forex/conversion/appln/RunCurrencyConversion.java:79:	Avoid variables with short names like sc
+src/forex/conversion/appln/RunCurrencyConversion.java:79:	Local variable 'sc' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:80:	Local variable 'inputString' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:81:	Local variable 'inputType' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:86:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/forex/conversion/appln/RunCurrencyConversion.java:87:	System.out.println is used
+src/forex/conversion/appln/RunCurrencyConversion.java:88:	System.exit() should not be used in J2EE/JEE apps
+src/forex/conversion/appln/RunCurrencyConversion.java:98:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:98:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:99:	Local variable 'outputCurrency' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:100:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:101:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:103:	Local variable 'outputFormat' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:110:	Comment is too large: Line too long
+src/forex/conversion/appln/RunCurrencyConversion.java:113:	Local variable 'infoLoader' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:114:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:116:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:123:	Local variable 'infoLoader' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:125:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/RunCurrencyConversion.java:134:	Local variable 'list' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:154:	Local variable 'list' could be declared final
+src/forex/conversion/appln/RunCurrencyConversion.java:173:	Avoid really long methods.
+src/forex/conversion/appln/RunCurrencyConversion.java:173:	The method getCurrencyConversionMatrix() has an NCSS line count of 124
+src/forex/conversion/appln/RunCurrencyConversion.java:174:	Local variable 'list' could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:5:	headerCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:6:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:7:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:8:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:10:	Parameter 'decimalPlaces' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:10:	Parameter 'shortDesc' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:10:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:10:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:16:	Parameter 'decimalPlaces' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:16:	Parameter 'shortDesc' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:16:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:21:	Parameter 'shortForm' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:21:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:26:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:29:	Parameter 'shortDesc' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:29:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:32:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:35:	Parameter 'decimalPlaces' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:35:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:39:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:43:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyBean.java:43:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyBean.java:48:	Comment is too large: Too many lines
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:5:	headerCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:6:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:7:	Avoid excessively long variable names like INDIRECT_CONVERSION
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:7:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:8:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:10:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:11:	fieldCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:13:	Avoid variables with short names like c1
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:13:	Avoid variables with short names like c2
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:13:	Parameter 'c1' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:13:	Parameter 'c2' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:13:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:18:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:21:	Parameter 'currentCurrency' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:21:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:24:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:27:	Parameter 'currencyToConvert' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:27:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:32:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:33:	Local variable 'code1' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:34:	Local variable 'code2' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:35:	Local variable 'crc' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:36:	Useless parentheses.
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:41:	Parameter 'obj' is not assigned and could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:41:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:43:	Local variable 'conv' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:44:	Avoid variables with short names like c1
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:44:	Local variable 'c1' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:45:	Avoid variables with short names like c2
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:45:	Local variable 'c2' could be declared final
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:46:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/bean/CurrencyConversionBean.java:47:	A method should have only one exit point, and that should be the last statement in the method
+src/forex/conversion/appln/parser/ConsoleInputParser.java:12:	The class 'ConsoleInputParser' has a Cyclomatic Complexity of 5 (Highest = 12).
+src/forex/conversion/appln/parser/ConsoleInputParser.java:12:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleInputParser.java:13:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/parser/ConsoleInputParser.java:13:	Private field 'strToParse' could be made final; it is only initialized in the declaration or constructor.
+src/forex/conversion/appln/parser/ConsoleInputParser.java:13:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleInputParser.java:14:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/parser/ConsoleInputParser.java:14:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleInputParser.java:16:	Parameter 'str' is not assigned and could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:16:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleInputParser.java:21:	The method 'parse' has a Cyclomatic Complexity of 12.
+src/forex/conversion/appln/parser/ConsoleInputParser.java:21:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleInputParser.java:22:	Found 'DD'-anomaly for variable 'convBean' (lines '22'-'40').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:22:	Found 'DU'-anomaly for variable 'convBean' (lines '22'-'62').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:24:	Found 'DU'-anomaly for variable 'strHelper' (lines '24'-'62').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:24:	Local variable 'strHelper' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:26:	Local variable 'updatedStr' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:27:	Local variable 'tokens' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:28:	Found 'DD'-anomaly for variable 'invalidInput' (lines '28'-'36').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:28:	Found 'DD'-anomaly for variable 'invalidInput' (lines '28'-'46').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:28:	Found 'DD'-anomaly for variable 'invalidInput' (lines '28'-'50').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:28:	Found 'DD'-anomaly for variable 'invalidInput' (lines '28'-'55').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:30:	Avoid excessively long variable names like currentCurrencyStr
+src/forex/conversion/appln/parser/ConsoleInputParser.java:30:	Local variable 'currentCurrencyStr' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:31:	Local variable 'valueStr' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:32:	Avoid excessively long variable names like currencyToConvertStr
+src/forex/conversion/appln/parser/ConsoleInputParser.java:32:	Local variable 'currencyToConvertStr' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:38:	Local variable 'currentCurrency' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:39:	Local variable 'currencyToConvert' could be declared final
+src/forex/conversion/appln/parser/ConsoleInputParser.java:39:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:39:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:40:	Found 'DU'-anomaly for variable 'convBean' (lines '40'-'62').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:41:	Avoid if (x != y) ..; else ..;
+src/forex/conversion/appln/parser/ConsoleInputParser.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleInputParser.java:47:	Avoid printStackTrace(); use a logger call instead.
+src/forex/conversion/appln/parser/ConsoleInputParser.java:50:	Found 'DU'-anomaly for variable 'invalidInput' (lines '50'-'62').
+src/forex/conversion/appln/parser/ConsoleInputParser.java:65:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:9:	The class 'ConsoleOutputFormatter' has a Cyclomatic Complexity of 4 (Highest = 10).
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:9:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:10:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:11:	Avoid excessively long variable names like SUCCESS_OUTPUT_FORMAT
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:11:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:12:	Avoid excessively long variable names like FAILURE_OUTPUT_FORMAT
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:12:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:13:	Avoid excessively long variable names like FAILURE_OUTPUT_FORMAT_2
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:13:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:15:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:15:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:20:	The method 'display' has a Cyclomatic Complexity of 10.
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:20:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:26:	Found 'DD'-anomaly for variable 'inputCurrency' (lines '26'-'32').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:26:	Found 'DU'-anomaly for variable 'inputCurrency' (lines '26'-'57').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:27:	Found 'DD'-anomaly for variable 'outputCurrency' (lines '27'-'33').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:27:	Found 'DU'-anomaly for variable 'outputCurrency' (lines '27'-'57').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:28:	Avoid excessively long variable names like shortFormInputCurrency
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:28:	Found 'DD'-anomaly for variable 'shortFormInputCurrency' (lines '28'-'35').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:28:	Found 'DU'-anomaly for variable 'shortFormInputCurrency' (lines '28'-'57').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:29:	Avoid excessively long variable names like shortFormOutputCurrency
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:29:	Found 'DD'-anomaly for variable 'shortFormOutputCurrency' (lines '29'-'38').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:29:	Found 'DU'-anomaly for variable 'shortFormOutputCurrency' (lines '29'-'57').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:30:	Found 'DU'-anomaly for variable 'infoLoader' (lines '30'-'57').
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:30:	Local variable 'infoLoader' could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:34:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:35:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:35:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:38:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:40:	Local variable 'inputValue' could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:40:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:41:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:43:	Avoid if (x != y) ..; else ..;
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:44:	Local variable 'decimalPlaces' could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:44:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:46:	Local variable 'outputString' could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:47:	System.out.println is used
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:49:	Avoid if (x != y) ..; else ..;
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:50:	Local variable 'outputString' could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:51:	System.out.println is used
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:53:	System.out.println is used
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:60:	Parameter 'bean' is not assigned and could be declared final
+src/forex/conversion/appln/parser/ConsoleOutputFormatter.java:60:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputParser.java:4:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/InputParser.java:5:	Avoid modifiers which are implied by the context
+src/forex/conversion/appln/parser/InputParser.java:5:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputParser.java:6:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/forex/conversion/appln/parser/InputParser.java:6:	Avoid modifiers which are implied by the context
+src/forex/conversion/appln/parser/InputParser.java:6:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:5:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/parser/InputTypeStrategy.java:6:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:8:	Parameter 'inputParser' is not assigned and could be declared final
+src/forex/conversion/appln/parser/InputTypeStrategy.java:8:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:12:	Parameter 'inputParser' is not assigned and could be declared final
+src/forex/conversion/appln/parser/InputTypeStrategy.java:12:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:16:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/InputTypeStrategy.java:20:	A method/constructor shouldnt explicitly throw java.lang.Exception
+src/forex/conversion/appln/parser/InputTypeStrategy.java:20:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:3:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:4:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:4:	fieldCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:6:	Parameter 'outputFormatter' is not assigned and could be declared final
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:6:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:10:	Parameter 'outputFormatter' is not assigned and could be declared final
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:10:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:14:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatStrategy.java:18:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatter.java:5:	headerCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatter.java:6:	Avoid modifiers which are implied by the context
+src/forex/conversion/appln/parser/OutputFormatter.java:6:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/parser/OutputFormatter.java:7:	Avoid modifiers which are implied by the context
+src/forex/conversion/appln/parser/OutputFormatter.java:7:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:8:	headerCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/util/ConcurrentHashSet.java:9:	fieldCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:11:	It is a good practice to call super() in a constructor
+src/forex/conversion/appln/util/ConcurrentHashSet.java:11:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:15:	It is a good practice to call super() in a constructor
+src/forex/conversion/appln/util/ConcurrentHashSet.java:15:	Parameter 'capacity' is not assigned and could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:15:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:19:	It is a good practice to call super() in a constructor
+src/forex/conversion/appln/util/ConcurrentHashSet.java:19:	Parameter 'set' is not assigned and could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:19:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:20:	Local variable 'element' could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:26:	Parameter 'element' is not assigned and could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:26:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:27:	Local variable 'fromCollection' could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:32:	Avoid variables with short names like o
+src/forex/conversion/appln/util/ConcurrentHashSet.java:32:	Parameter 'o' is not assigned and could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:32:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:37:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:38:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/util/ConcurrentHashSet.java:42:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:47:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/ConcurrentHashSet.java:52:	Avoid variables with short names like o
+src/forex/conversion/appln/util/ConcurrentHashSet.java:52:	Parameter 'o' is not assigned and could be declared final
+src/forex/conversion/appln/util/ConcurrentHashSet.java:52:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:9:	headerCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:12:	headerCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:13:	Avoid instantiation through private constructors from outside of the constructors class.
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:13:	fieldCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:19:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:28:	Parameter 'str' is not assigned and could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:30:	Avoid excessively long variable names like currentCurrencyStr
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:30:	Local variable 'currentCurrencyStr' could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:31:	Avoid excessively long variable names like currencyToConvertStr
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:31:	Local variable 'currencyToConvertStr' could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:33:	Avoid variables with short names like c1
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:33:	Local variable 'c1' could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:33:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:34:	Avoid variables with short names like c2
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:34:	Local variable 'c2' could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:34:	Potential violation of Law of Demeter (method chain calls)
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:35:	Local variable 'convBean' could be declared final
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:36:	A method should have only one exit point, and that should be the last statement in the method
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:36:	Consider simply returning the value vs storing it in local variable 'convBean'
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:42:	The return type of the clone() method must be the class name when implements Cloneable
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:42:	clone() method must be public if the class implements Cloneable
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:42:	protectedMethodCommentRequirement Required
+src/forex/conversion/appln/util/CurrencyConversionUtilHelper.java:47:	protectedMethodCommentRequirement Required
+src/forex/conversion/appln/util/StringUtilHelper.java:3:	Each class should declare at least one constructor
+src/forex/conversion/appln/util/StringUtilHelper.java:3:	headerCommentRequirement Required
+src/forex/conversion/appln/util/StringUtilHelper.java:5:	Parameter 'str' is not assigned and could be declared final
+src/forex/conversion/appln/util/StringUtilHelper.java:5:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/util/StringUtilHelper.java:6:	Avoid unnecessary if..then..else statements when returning booleans
+src/forex/conversion/appln/util/StringUtilHelper.java:7:	A method should have only one exit point, and that should be the last statement in the method
+src/forex/conversion/appln/validation/CurrencyValidator.java:8:	Each class should declare at least one constructor
+src/forex/conversion/appln/validation/CurrencyValidator.java:8:	headerCommentRequirement Required
+src/forex/conversion/appln/validation/CurrencyValidator.java:9:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/validation/CurrencyValidator.java:9:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/CurrencyValidator.java:11:	Local variable 'inputCurrency' could be declared final
+src/forex/conversion/appln/validation/CurrencyValidator.java:13:	Potential violation of Law of Demeter (object not created locally)
+src/forex/conversion/appln/validation/CurrencyValidator.java:22:	Parameter 'value' is not assigned and could be declared final
+src/forex/conversion/appln/validation/CurrencyValidator.java:36:	Parameter 'convBean' is not assigned and could be declared final
+src/forex/conversion/appln/validation/CurrencyValidator.java:37:	Local variable 'inputCurrency' could be declared final
+src/forex/conversion/appln/validation/CurrencyValidator.java:41:	Local variable 'outputCurrency' could be declared final
+src/forex/conversion/appln/validation/IncorrectInputException.java:4:	headerCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:6:	Avoid using redundant field initializer for 'message'
+src/forex/conversion/appln/validation/IncorrectInputException.java:6:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/validation/IncorrectInputException.java:6:	fieldCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:8:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:12:	Parameter 'message' is not assigned and could be declared final
+src/forex/conversion/appln/validation/IncorrectInputException.java:12:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:17:	Parameter 'cause' is not assigned and could be declared final
+src/forex/conversion/appln/validation/IncorrectInputException.java:17:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:21:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/IncorrectInputException.java:25:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:8:	Avoid using redundant field initializer for 'message'
+src/forex/conversion/appln/validation/InputFormatException.java:8:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/forex/conversion/appln/validation/InputFormatException.java:8:	fieldCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:10:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:14:	Parameter 'message' is not assigned and could be declared final
+src/forex/conversion/appln/validation/InputFormatException.java:14:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:19:	Parameter 'cause' is not assigned and could be declared final
+src/forex/conversion/appln/validation/InputFormatException.java:19:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:23:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/InputFormatException.java:27:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:4:	headerCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:5:	Avoid using redundant field initializer for 'message'
+src/forex/conversion/appln/validation/ValidationException.java:5:	fieldCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:7:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:11:	Parameter 'message' is not assigned and could be declared final
+src/forex/conversion/appln/validation/ValidationException.java:11:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:16:	Parameter 'cause' is not assigned and could be declared final
+src/forex/conversion/appln/validation/ValidationException.java:16:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:20:	publicMethodCommentRequirement Required
+src/forex/conversion/appln/validation/ValidationException.java:24:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:17:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestConsoleInputParser.java:17:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:18:	Avoid variables with short names like ip
+test/forex/conversion/appln/test/TestConsoleInputParser.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleInputParser.java:18:	To avoid mistakes add a comment at the beginning of the ip field if you want a default access modifier
+test/forex/conversion/appln/test/TestConsoleInputParser.java:18:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestConsoleInputParser.java:18:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:19:	Avoid variables with short names like r
+test/forex/conversion/appln/test/TestConsoleInputParser.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleInputParser.java:19:	To avoid mistakes add a comment at the beginning of the r field if you want a default access modifier
+test/forex/conversion/appln/test/TestConsoleInputParser.java:19:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestConsoleInputParser.java:19:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleInputParser.java:22:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:24:	JUnit 4 tests that set up tests should use the @Before annotation
+test/forex/conversion/appln/test/TestConsoleInputParser.java:25:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:31:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestConsoleInputParser.java:31:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:32:	Local variable 'str' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:36:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+test/forex/conversion/appln/test/TestConsoleInputParser.java:37:	Avoid printStackTrace(); use a logger call instead.
+test/forex/conversion/appln/test/TestConsoleInputParser.java:39:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestConsoleInputParser.java:39:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:40:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestConsoleInputParser.java:40:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:41:	Local variable 'bean' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:42:	Avoid variables with short names like b
+test/forex/conversion/appln/test/TestConsoleInputParser.java:42:	Local variable 'b' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:48:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:49:	Local variable 'str' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:53:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+test/forex/conversion/appln/test/TestConsoleInputParser.java:53:	Avoid empty catch blocks
+test/forex/conversion/appln/test/TestConsoleInputParser.java:60:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestConsoleInputParser.java:60:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:61:	Local variable 'str' could be declared final
+test/forex/conversion/appln/test/TestConsoleInputParser.java:65:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+test/forex/conversion/appln/test/TestConsoleInputParser.java:65:	Avoid empty catch blocks
+test/forex/conversion/appln/test/TestConsoleInputParser.java:75:	Document empty method body
+test/forex/conversion/appln/test/TestConsoleInputParser.java:75:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:80:	JUnit 4 tests that clean up tests should use the @After annotation
+test/forex/conversion/appln/test/TestConsoleInputParser.java:81:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleInputParser.java:83:	Assigning an Object to null is a code smell.  Consider refactoring.
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:20:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:20:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:21:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:21:	To avoid mistakes add a comment at the beginning of the outputFormatter field if you want a default access modifier
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:21:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:21:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:22:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:22:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:23:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:23:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:26:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:33:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:34:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:34:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:35:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:35:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:38:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:38:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:38:	The String literal "USD" appears 4 times in this file; the first occurrence is on line 38
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:39:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:39:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:39:	The String literal "EUR" appears 4 times in this file; the first occurrence is on line 39
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:40:	Local variable 'bean' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:43:	Local variable 'currencyList' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:46:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:48:	Local variable 'outputString' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:48:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:49:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:49:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:53:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:54:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:54:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:55:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:55:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:58:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:58:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:59:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:59:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:60:	Local variable 'bean' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:63:	Local variable 'currencyList' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:66:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:68:	Local variable 'outputString' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:68:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:69:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:69:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:73:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:74:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:74:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:75:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:75:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:78:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:78:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:79:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:79:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:80:	Local variable 'bean' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:84:	Local variable 'outputString' could be declared final
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:84:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:85:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:85:	Potential violation of Law of Demeter (method chain calls)
+test/forex/conversion/appln/test/TestConsoleOutputFormatter.java:90:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyBean.java:8:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestCurrencyBean.java:8:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyBean.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestCurrencyBean.java:9:	To avoid mistakes add a comment at the beginning of the bean field if you want a default access modifier
+test/forex/conversion/appln/test/TestCurrencyBean.java:9:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestCurrencyBean.java:9:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyBean.java:12:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestCurrencyBean.java:12:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyBean.java:21:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestCurrencyBean.java:21:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:9:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:9:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:10:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:10:	To avoid mistakes add a comment at the beginning of the convBean field if you want a default access modifier
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:10:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:10:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:13:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:13:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:14:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:14:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:15:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:15:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:24:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:24:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:25:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:25:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:26:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestCurrencyConversionBean.java:26:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:16:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestCurrencyConverter.java:16:	This class has too many methods, consider refactoring it.
+test/forex/conversion/appln/test/TestCurrencyConverter.java:16:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	Avoid using redundant field initializer for 'r'
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	Avoid variables with short names like r
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	To avoid mistakes add a comment at the beginning of the r field if you want a default access modifier
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestCurrencyConverter.java:17:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:18:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestCurrencyConverter.java:18:	To avoid mistakes add a comment at the beginning of the converter field if you want a default access modifier
+test/forex/conversion/appln/test/TestCurrencyConverter.java:18:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestCurrencyConverter.java:18:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:21:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:28:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:29:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:29:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:30:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:30:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:31:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:31:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:36:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:37:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:37:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:37:	The String literal "145.12" appears 4 times in this file; the first occurrence is on line 37
+test/forex/conversion/appln/test/TestCurrencyConverter.java:38:	Local variable 'inputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:38:	The String literal "USD" appears 8 times in this file; the first occurrence is on line 38
+test/forex/conversion/appln/test/TestCurrencyConverter.java:39:	Local variable 'outputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:40:	Local variable 'convBean' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:45:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:47:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:47:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:48:	Local variable 'inputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:49:	Local variable 'outputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:50:	Local variable 'convBean' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:52:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:52:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:52:	The String literal "1.2315" appears 4 times in this file; the first occurrence is on line 52
+test/forex/conversion/appln/test/TestCurrencyConverter.java:53:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:53:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:53:	This statement may have some unnecessary parentheses
+test/forex/conversion/appln/test/TestCurrencyConverter.java:53:	Useless parentheses.
+test/forex/conversion/appln/test/TestCurrencyConverter.java:58:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:60:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:60:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:61:	Local variable 'inputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:61:	The String literal "AUD" appears 6 times in this file; the first occurrence is on line 61
+test/forex/conversion/appln/test/TestCurrencyConverter.java:62:	Local variable 'outputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:63:	Local variable 'convBean' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:64:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:64:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:64:	The String literal "0.8371" appears 5 times in this file; the first occurrence is on line 64
+test/forex/conversion/appln/test/TestCurrencyConverter.java:65:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:65:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:71:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:73:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:73:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:74:	Local variable 'inputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:75:	Local variable 'outputCurrency' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:76:	Local variable 'convBean' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:77:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:77:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:78:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:78:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:83:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:90:	Local variable 'input' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:91:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:91:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:92:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:92:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:93:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:93:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:93:	Potential violation of Law of Demeter (static property access)
+test/forex/conversion/appln/test/TestCurrencyConverter.java:94:	Avoid variables with short names like d4
+test/forex/conversion/appln/test/TestCurrencyConverter.java:94:	Local variable 'd4' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:95:	Avoid variables with short names like d6
+test/forex/conversion/appln/test/TestCurrencyConverter.java:95:	Local variable 'd6' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:96:	Local variable 'finalValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:97:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:98:	Local variable 'dkkCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:99:	Local variable 'convBean' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:104:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:105:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:106:	Local variable 'usdCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:107:	Local variable 'output' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:108:	Local variable 'expectedValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:113:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:114:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:115:	Local variable 'usdCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:116:	Local variable 'output' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:117:	Local variable 'expectedValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:122:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:123:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:124:	Local variable 'usdCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:125:	Local variable 'output' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:126:	Local variable 'expectedValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:132:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:139:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:139:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:140:	Avoid variables with short names like d2
+test/forex/conversion/appln/test/TestCurrencyConverter.java:140:	Local variable 'd2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:141:	Avoid variables with short names like d3
+test/forex/conversion/appln/test/TestCurrencyConverter.java:141:	Local variable 'd3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:141:	Potential violation of Law of Demeter (static property access)
+test/forex/conversion/appln/test/TestCurrencyConverter.java:142:	Avoid variables with short names like d4
+test/forex/conversion/appln/test/TestCurrencyConverter.java:142:	Local variable 'd4' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:143:	Local variable 'finalValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:144:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:145:	Local variable 'dkkCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:150:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:151:	Local variable 'usdCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:152:	Local variable 'eurCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:153:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:153:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:154:	Local variable 'finalValue' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:154:	Potential violation of Law of Demeter (static property access)
+test/forex/conversion/appln/test/TestCurrencyConverter.java:159:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:160:	Local variable 'audCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:161:	Local variable 'usdCurr' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:162:	Avoid variables with short names like d1
+test/forex/conversion/appln/test/TestCurrencyConverter.java:162:	Local variable 'd1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyConverter.java:167:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyConverter.java:169:	Assigning an Object to null is a code smell.  Consider refactoring.
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:15:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:15:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:16:	To avoid mistakes add a comment at the beginning of the infoLoader field if you want a default access modifier
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:16:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:16:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:19:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:23:	Comment is too large: Too many lines
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:56:	Comment is too large: Too many lines
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:65:	Comment is too large: Too many lines
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:80:	Comment is too large: Line too long
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:91:	JUnit tests should not contain more than 1 assert(s).
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:91:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:98:	Comment is too large: Too many lines
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:115:	Local variable 'list' could be declared final
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:126:	Local variable 'currencyList' could be declared final
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:134:	Avoid variables with short names like c1
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:134:	Local variable 'c1' could be declared final
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:135:	Avoid variables with short names like c2
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:135:	Local variable 'c2' could be declared final
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:136:	Avoid variables with short names like c3
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:136:	Local variable 'c3' could be declared final
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:151:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestCurrencyRatesInfoLoader.java:152:	Assigning an Object to null is a code smell.  Consider refactoring.
+test/forex/conversion/appln/test/TestStringUtilHelper.java:8:	Each class should declare at least one constructor
+test/forex/conversion/appln/test/TestStringUtilHelper.java:8:	headerCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:9:	Avoid using redundant field initializer for 'strHelper'
+test/forex/conversion/appln/test/TestStringUtilHelper.java:9:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+test/forex/conversion/appln/test/TestStringUtilHelper.java:9:	To avoid mistakes add a comment at the beginning of the strHelper field if you want a default access modifier
+test/forex/conversion/appln/test/TestStringUtilHelper.java:9:	Use explicit scoping instead of the default package private level
+test/forex/conversion/appln/test/TestStringUtilHelper.java:9:	fieldCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:11:	JUnit 4 tests that set up tests should use the @Before annotation
+test/forex/conversion/appln/test/TestStringUtilHelper.java:12:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:17:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:18:	Avoid variables with short names like s
+test/forex/conversion/appln/test/TestStringUtilHelper.java:18:	Local variable 's' could be declared final
+test/forex/conversion/appln/test/TestStringUtilHelper.java:19:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x)   or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+test/forex/conversion/appln/test/TestStringUtilHelper.java:23:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:24:	Avoid variables with short names like s
+test/forex/conversion/appln/test/TestStringUtilHelper.java:24:	Local variable 's' could be declared final
+test/forex/conversion/appln/test/TestStringUtilHelper.java:25:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x)   or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+test/forex/conversion/appln/test/TestStringUtilHelper.java:29:	publicMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:30:	Avoid variables with short names like s
+test/forex/conversion/appln/test/TestStringUtilHelper.java:30:	Local variable 's' could be declared final
+test/forex/conversion/appln/test/TestStringUtilHelper.java:31:	Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x)   or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).
+test/forex/conversion/appln/test/TestStringUtilHelper.java:35:	JUnit 4 tests that clean up tests should use the @After annotation
+test/forex/conversion/appln/test/TestStringUtilHelper.java:36:	protectedMethodCommentRequirement Required
+test/forex/conversion/appln/test/TestStringUtilHelper.java:37:	Assigning an Object to null is a code smell.  Consider refactoring.

@@ -1,0 +1,40 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8 // java 8
+targetCompatibility = 1.8
+
+dependencies {
+		compile fileTree(dir: './jars', include: '**/*.jar')
+	}
+
+uploadArchives{
+	repositories{
+		flatDir{
+			//specifying location where built jar file needs to be copied.
+				dirs '.'
+			}
+		}
+	}
+sourceSets {
+		main {
+			java {
+				//indicating location of java source files.
+				srcDirs  'src'
+			
+		      }
+			 jar {
+				baseName = 'forex'
+ 			 }
+		test {
+      			java {
+		         srcDir 'test'
+      			}
+   		}
+	}
+   
+   
+}
+
+
+
+ 
