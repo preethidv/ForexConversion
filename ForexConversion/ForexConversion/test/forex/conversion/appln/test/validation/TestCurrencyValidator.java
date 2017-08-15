@@ -1,4 +1,4 @@
-package forex.conversion.appln.test.validator;
+package forex.conversion.appln.test.validation;
 
 import forex.conversion.appln.bean.CurrencyBean;
 import forex.conversion.appln.bean.CurrencyConversionBean;
