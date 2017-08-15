@@ -1,4 +1,4 @@
-package forex.conversion.appln.test;
+package forex.conversion.appln.test.util;
 
 import forex.conversion.appln.util.StringUtilHelper;
 
