@@ -16,6 +16,10 @@ import java.util.Scanner;
 
 
 public class RunCurrencyConversion {
+  public static final String SUPPORTED_CURRENCIES_PROP_FILE_NAME = "supportedcurrencies.prop";
+  public static final String FOREX_RATES_PROP_FILE_NAME = "forexrates.prop";
+  public static final String CONVERSION_MATRIX_PROP_FILE_NAME = "conversionmatrix.prop";
+  public static final String RESOURCE_LOC = "/forex/conversion/appln/resources/";
 
   /** runs the application.
    * @param args - cmd line args
@@ -81,10 +85,48 @@ public class RunCurrencyConversion {
    *  table and conversion matrix table.
    */
   public void loadData() {
+    
     CurrencyRatesInfoLoader infoLoader = CurrencyRatesInfoLoader.getInstance();
-    infoLoader.populateSupportedCurrencies(getSupportedCurrencies());
-    infoLoader.populateCurrencyExchangeRates(getCurrencyExchangeRates());
-    infoLoader.populateCurrencyConversionMatrix(getCurrencyConversionMatrix());
+    try {
+      // load supported currencies details
+      List<String> currenciesList;
+      File supportedCurrencies = new File(RunCurrencyConversion.class.getResource(
+                        RESOURCE_LOC + SUPPORTED_CURRENCIES_PROP_FILE_NAME).getFile());
+
+      if (supportedCurrencies.exists()) {
+        currenciesList = getValuesFromPropertiesFile(supportedCurrencies);
+      } else {
+        currenciesList = getSupportedCurrencies();
+      }
+      infoLoader.populateSupportedCurrencies(currenciesList);
+
+      // load conversion matrix details
+      List<String> currencyConvList;
+      File conversionMatrixFile = new File(RunCurrencyConversion.class.getResource(
+          RESOURCE_LOC + CONVERSION_MATRIX_PROP_FILE_NAME).getFile());
+
+      if (conversionMatrixFile.exists()) {
+        currencyConvList  = getValuesFromPropertiesFile(conversionMatrixFile);
+      } else {
+        currencyConvList = getCurrencyConversionMatrix();  
+      }
+      infoLoader.populateCurrencyConversionMatrix(currencyConvList);
+      
+      // load forex rates details
+      List<String> forexList;
+      File forexRatesFile = new File(RunCurrencyConversion.class.getResource(
+          RESOURCE_LOC + FOREX_RATES_PROP_FILE_NAME).getFile());
+      
+      if (forexRatesFile.exists()) {
+        forexList = getValuesFromPropertiesFile(forexRatesFile);
+      } else {
+        forexList = getCurrencyExchangeRates();
+      }
+      infoLoader.populateCurrencyExchangeRates(forexList);
+      
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
   }
 
   /**unload all data.
@@ -96,6 +138,35 @@ public class RunCurrencyConversion {
     infoLoader.populateCurrencyConversionMatrix(null);
   }
 
+  /** get all values from property file
+   * @param propFile - property file which has currency info
+   * @return string List
+   */
+  public List<String> getValuesFromPropertiesFile(File propFile) 
+      throws IOException {
+    List<String> list = new ArrayList<String>();
+    if (propFile != null  && propFile.exists()) {
+      BufferedReader reader = null;
+      FileReader fileReader = null;
+      try {
+        fileReader = new FileReader(propFile);
+        reader = new BufferedReader(fileReader);
+        String currentLine;
+        while ((currentLine = reader.readLine()) != null) {
+          list.add(currentLine);
+        }   
+      } finally {
+        if (reader != null) {
+          reader.close();
+        }
+        if (fileReader != null) {
+          fileReader.close();
+        }
+      }
+    }
+    return list;
+  }
+  
   /** get all supported currencies list.
    * @return string list
    */
