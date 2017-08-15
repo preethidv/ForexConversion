@@ -1,4 +1,4 @@
-package forex.conversion.appln.test;
+package forex.conversion.appln.test.parser;
 
 import forex.conversion.appln.bean.CurrencyBean;
 import forex.conversion.appln.bean.CurrencyConversionBean;
