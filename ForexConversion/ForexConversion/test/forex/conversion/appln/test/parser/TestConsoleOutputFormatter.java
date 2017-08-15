@@ -1,4 +1,4 @@
-package forex.conversion.appln.test;
+package forex.conversion.appln.test.parser;
 
 import forex.conversion.appln.CurrencyRatesInfoLoader;
 import forex.conversion.appln.bean.CurrencyBean;
