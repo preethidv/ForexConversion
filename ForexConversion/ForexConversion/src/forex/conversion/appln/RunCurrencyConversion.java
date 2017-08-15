@@ -67,7 +67,7 @@ public class RunCurrencyConversion {
    */
   public void displayResult(BigDecimal value,CurrencyConversionBean convBean) {
     CurrencyBean outputCurrency = convBean.getCurrencyToConvert();
-    if (outputCurrency != null && outputCurrency.getValue() == BigDecimal.ZERO) {
+    if (outputCurrency != null && outputCurrency.getValue() != BigDecimal.ZERO) {
       outputCurrency.setValue(value);
       convBean.setCurrencyToConvert(outputCurrency);
       OutputFormatStrategy outputFormat = new OutputFormatStrategy(
